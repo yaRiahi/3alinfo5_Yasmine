@@ -44,6 +44,5 @@ public class Client implements Serializable {
 	private Profession profession;
 	@OneToMany(mappedBy="client", fetch=FetchType.EAGER)
 	private List<Facture> listeFactures;
-	//modif
-	
+	//commentaire4
 }
